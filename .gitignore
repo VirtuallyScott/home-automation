@@ -1,61 +1,61 @@
 # ── macOS ────────────────────────────────────────────────────────────────────
+._*
+.AppleDouble
 .DS_Store
 .DS_Store?
-._*
+.LSOverride
 .Spotlight-V100
 .Trashes
-.AppleDouble
-.LSOverride
-Icon
 *.icloud
+Icon
 
 # ── Python ───────────────────────────────────────────────────────────────────
 __pycache__/
-*.py[cod]
-*$py.class
-*.pyo
-*.pyd
-*.so
-*.egg
-*.egg-info/
-dist/
-build/
-eggs/
-parts/
-var/
-sdist/
-wheels/
-pip-wheel-metadata/
-share/python-wheels/
 .eggs/
 .installed.cfg
+*.egg
+*.egg-info/
+*.py[cod]
+*.pyd
+*.pyo
+*.so
+*$py.class
+build/
+dist/
+eggs/
 lib/
 lib64/
 MANIFEST
-pip-log.txt
+parts/
 pip-delete-this-directory.txt
+pip-log.txt
+pip-wheel-metadata/
+sdist/
+share/python-wheels/
+var/
+wheels/
 
 # virtualenvs
-.venv/
-venv/
-ENV/
-env/
 .env
+.venv/
+env/
+ENV/
+venv/
 
 # coverage / testing
+.cache/
 .coverage
 .coverage.*
-.cache/
 .pytest_cache/
+*.cover
+coverage.xml
 htmlcov/
 nosetests.xml
-coverage.xml
-*.cover
 
 # mypy / pyright / ruff
 .mypy_cache/
-.ruff_cache/
 .pytype/
+.ruff_cache/
 
 # Jupyter
 .ipynb_checkpoints/
@@ -65,8 +65,8 @@ coverage.xml
 
 # ── VS Code ──────────────────────────────────────────────────────────────────
 .history/
-.vscode/settings.json
 .vscode/launch.json
+.vscode/settings.json
 .vscode/tasks.json
 # keep .vscode/extensions.json if present
 
@@ -76,16 +76,16 @@ coverage.xml
 
 # ── KiCad ────────────────────────────────────────────────────────────────────
 *-backups/
-*.kicad_sch-bak
 *.kicad_pcb-bak
+*.kicad_sch-bak
 fp-info-cache
 
 # ── Secrets / env ────────────────────────────────────────────────────────────
+!.env.example
 .env
 .env.*
-!.env.example
 
 # ── OS misc ──────────────────────────────────────────────────────────────────
-Thumbs.db
-ehthumbs.db
 Desktop.ini
+ehthumbs.db
+Thumbs.db
