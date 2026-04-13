@@ -1,0 +1,10 @@
+# VS Code local history
+.history/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
