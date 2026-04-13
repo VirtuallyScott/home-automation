@@ -1,10 +1,91 @@
-# VS Code local history
-.history/
-
-# Python
-__pycache__/
-*.pyc
-*.pyo
-
-# macOS
+# ── macOS ────────────────────────────────────────────────────────────────────
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+Icon
+*.icloud
+
+# ── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.eggs/
+.installed.cfg
+lib/
+lib64/
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# virtualenvs
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# coverage / testing
+.coverage
+.coverage.*
+.cache/
+.pytest_cache/
+htmlcov/
+nosetests.xml
+coverage.xml
+*.cover
+
+# mypy / pyright / ruff
+.mypy_cache/
+.ruff_cache/
+.pytype/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ── MicroPython / ESP32 ──────────────────────────────────────────────────────
+*.mpy
+
+# ── VS Code ──────────────────────────────────────────────────────────────────
+.history/
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+# keep .vscode/extensions.json if present
+
+# ── JetBrains ────────────────────────────────────────────────────────────────
+.idea/
+*.iml
+
+# ── KiCad ────────────────────────────────────────────────────────────────────
+*-backups/
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+
+# ── Secrets / env ────────────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── OS misc ──────────────────────────────────────────────────────────────────
+Thumbs.db
+ehthumbs.db
+Desktop.ini
